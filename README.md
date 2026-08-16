@@ -5,7 +5,7 @@ Real weekly sales totals for 45 Walmart stores, Feb 2010 - Oct 2012.
 ## A note on the data
 
 This covers the same underlying stores and time period as the companion
-[walmart-recruiting-sales-analysis](https://github.com/PeterImoniose/walmart-recruiting-sales-analysis)
+[Walmart-recruiting](https://github.com/PeterImoniose/Walmart-recruiting)
 repo - the weekly totals match it almost exactly (both show £80,931,415.60 for the week
 of 24-26 Dec 2010). That repo has department-level detail this one doesn't; this one is
 aggregated to one row per store per week, which sets up a genuinely different question:
@@ -42,7 +42,3 @@ point `DATA_DIR` in the first code cell at your own local copy.
 Per-store forecasting, prioritised by what this notebook found: start with a
 seasonal-naive baseline given how strong the year-over-year correlation is, then focus
 modelling effort on the higher-CV (less predictable) stores identified here.
-
-## Author
-
-Avwerosuo Peter Imoniose
